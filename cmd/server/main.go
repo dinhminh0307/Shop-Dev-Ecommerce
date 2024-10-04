@@ -9,7 +9,7 @@ import (
 
 func main() {
   r := routers.NewRouter(); // call the function from go
-  r.Run(":0307") // listen and serve on 0.0.0.0:0307 (for windows "localhost:0307")
+  r.Run(":8080") // listen and serve on 0.0.0.0:0307 (for windows "localhost:0307")
 }
 
 
